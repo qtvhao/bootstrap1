@@ -61,3 +61,8 @@ body {
       line-height: 22px;
       text-transform: uppercase;
       letter-spacing: 1px; }
+  .container #details .features {
+    padding: 50px; }
+    .container #details .features .icon {
+      font-size: 32px;
+      line-height: 40px; }

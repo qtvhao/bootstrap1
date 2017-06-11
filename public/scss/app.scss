@@ -63,4 +63,14 @@ body{
       }
     }
   }
+
+  #details{
+    .features{
+      padding: 50px;
+      .icon{
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+  }
 }
