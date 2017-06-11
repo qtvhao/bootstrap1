@@ -68,8 +68,38 @@ body{
     .features{
       padding: 50px;
       .icon{
+        color: #3498db;
         font-size: 32px;
         line-height: 40px;
+      }
+    }
+  }
+  #personal-info{
+    padding: 50px;
+    background-color: #EFEFEF;
+    h3.personal-info-heading{
+      margin-bottom: 40px;
+    }
+    .box{
+      margin-bottom: 13px;
+      display:block;
+      clear:both;
+      h4{
+        display:inline-block;
+        width: 30%;
+        margin-top: 0;
+        vertical-align: top;
+        text-transform: uppercase;
+        white-space: nowrap;
+        font-size:14px;
+        font-weight: bold;
+        padding-right: 8px;
+        line-height: 20px;
+      }
+      .personal-info-body{
+        line-height: 20px;
+        width:60%;
+        display: inline-block;
       }
     }
   }

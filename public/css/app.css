@@ -64,5 +64,30 @@ body {
   .container #details .features {
     padding: 50px; }
     .container #details .features .icon {
+      color: #3498db;
       font-size: 32px;
       line-height: 40px; }
+  .container #personal-info {
+    padding: 50px;
+    background-color: #EFEFEF; }
+    .container #personal-info h3.personal-info-heading {
+      margin-bottom: 40px; }
+    .container #personal-info .box {
+      margin-bottom: 13px;
+      display: block;
+      clear: both; }
+      .container #personal-info .box h4 {
+        display: inline-block;
+        width: 30%;
+        margin-top: 0;
+        vertical-align: top;
+        text-transform: uppercase;
+        white-space: nowrap;
+        font-size: 14px;
+        font-weight: bold;
+        padding-right: 8px;
+        line-height: 20px; }
+      .container #personal-info .box .personal-info-body {
+        line-height: 20px;
+        width: 60%;
+        display: inline-block; }
