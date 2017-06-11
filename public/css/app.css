@@ -51,7 +51,13 @@ body {
   .container .menu-items .menu-item {
     height: 120px;
     text-align: center;
-    padding-top: 33px; }
+    padding-top: 19px; }
     .container .menu-items .menu-item .menu-item-icon {
       display: block;
-      font-size: 20px; }
+      font-size: 30px; }
+    .container .menu-items .menu-item .menu-item-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 22px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
