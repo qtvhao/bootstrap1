@@ -1,9 +1,19 @@
+@import "colors";
 body{
   background-color: #D8D8D8;
 }
 .container{
+  margin-top: 16px;
   background-color: white;
-  .heading-1{
+  .profile-image{
+    height: 360px;
+    overflow: hidden;
+    img{
+      height: auto;
+      width: 390px;
+    }
+  }
+  .row1{
     *{
       color:#ECECEC;
     }
@@ -33,6 +43,17 @@ body{
     }
     .title-name{
       background-color: #4F4F4F;
+    }
+  }
+  .menu-items{
+    .menu-item{
+      height:120px;
+      text-align: center;
+      padding-top:33px;
+      .menu-item-icon{
+        display: block;
+        font-size:20px;
+      }
     }
   }
 }

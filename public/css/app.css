@@ -1,25 +1,57 @@
+.ui-menu-color01 {
+  background-color: #1abc9c !important; }
+
+.ui-menu-color02 {
+  background-color: #3498db !important; }
+
+.ui-menu-color03 {
+  background-color: #9b59b6 !important; }
+
+.ui-menu-color04 {
+  background-color: #e67e22 !important; }
+
+.ui-menu-color05 {
+  background-color: #e74c3c !important; }
+
+.ui-menu-color06 {
+  background-color: #d9a81d !important; }
+
 body {
   background-color: #D8D8D8; }
 
 .container {
+  margin-top: 16px;
   background-color: white; }
-  .container .heading-1 * {
+  .container .profile-image {
+    height: 360px;
+    overflow: hidden; }
+    .container .profile-image img {
+      height: auto;
+      width: 390px; }
+  .container .row1 * {
     color: #ECECEC; }
-  .container .heading-1 .col-sm-4 {
+  .container .row1 .col-sm-4 {
     padding: 0; }
-  .container .heading-1 .heading .title-icon {
+  .container .row1 .heading .title-icon {
     background: #474747;
     min-height: 120px;
     max-height: 120px;
     text-align: center;
     font-size: 30px;
     padding: 34px 0 0; }
-  .container .heading-1 .heading.heading-2 .title-icon {
+  .container .row1 .heading.heading-2 .title-icon {
     background-color: #3B3B3B; }
-  .container .heading-1 .position-title {
+  .container .row1 .position-title {
     height: 120px;
     padding: 23px 40px 34px 40px;
     margin: 0;
     background-color: #3F3F3F; }
-  .container .heading-1 .title-name {
+  .container .row1 .title-name {
     background-color: #4F4F4F; }
+  .container .menu-items .menu-item {
+    height: 120px;
+    text-align: center;
+    padding-top: 33px; }
+    .container .menu-items .menu-item .menu-item-icon {
+      display: block;
+      font-size: 20px; }
