@@ -3,4 +3,36 @@ body{
 }
 .container{
   background-color: white;
+  .heading-1{
+    *{
+      color:#ECECEC;
+    }
+    .col-sm-4{
+      padding:0;
+    }
+    .heading{
+      .title-icon{
+        background: #474747;
+        min-height: 120px;
+        max-height: 120px;
+        text-align: center;
+        font-size:30px;
+        padding: 34px 0 0;
+      }
+      &.heading-2{
+        .title-icon{
+          background-color: #3B3B3B;
+        }
+      }
+    }
+    .position-title{
+      height:120px;
+      padding: 23px 40px 34px 40px;
+      margin:0;
+      background-color: #3F3F3F;
+    }
+    .title-name{
+      background-color: #4F4F4F;
+    }
+  }
 }

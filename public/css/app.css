@@ -3,3 +3,23 @@ body {
 
 .container {
   background-color: white; }
+  .container .heading-1 * {
+    color: #ECECEC; }
+  .container .heading-1 .col-sm-4 {
+    padding: 0; }
+  .container .heading-1 .heading .title-icon {
+    background: #474747;
+    min-height: 120px;
+    max-height: 120px;
+    text-align: center;
+    font-size: 30px;
+    padding: 34px 0 0; }
+  .container .heading-1 .heading.heading-2 .title-icon {
+    background-color: #3B3B3B; }
+  .container .heading-1 .position-title {
+    height: 120px;
+    padding: 23px 40px 34px 40px;
+    margin: 0;
+    background-color: #3F3F3F; }
+  .container .heading-1 .title-name {
+    background-color: #4F4F4F; }
