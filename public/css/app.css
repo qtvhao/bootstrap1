@@ -91,3 +91,12 @@ body {
         line-height: 20px;
         width: 60%;
         display: inline-block; }
+  .container #personal-skills {
+    background-color: #3498db !important; }
+    .container #personal-skills * {
+      color: white; }
+    .container #personal-skills .circle {
+      margin: 0 auto;
+      width: 130px;
+      height: 130px;
+      position: relative; }

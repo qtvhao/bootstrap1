@@ -103,4 +103,16 @@ body{
       }
     }
   }
+  #personal-skills{
+    *{
+      color:white;
+    }
+    .circle {
+      margin: 0 auto;
+      width: 130px;
+      height: 130px;
+      position: relative;
+    }
+    background-color: #3498db !important;
+  }
 }
